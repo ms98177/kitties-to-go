@@ -1,0 +1,131 @@
+body {
+  background: #000000
+
+}
+.body-container{
+  width: 35rem;
+ }
+
+header {
+  color: white;
+}
+
+.top-link {
+  color: #EA2500; /* red */
+  text-align: right;
+}
+
+.motto-text {
+  color: gray;
+  text-align: left;
+  font-size: 12;
+}
+
+.nav-container {
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+  width: 35rem;
+  flex-wrap: wrap;
+}
+
+.nav-style {
+  display: block;
+  background-color: gray;
+  text-align: left;
+  font-size: 12;
+  width: 35rem;
+}
+
+.kitty-container {
+  padding: 1rem;
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  flex-grow: 0;
+
+}
+
+.item {
+  color: white;
+  text-shadow: 0 0 0.1rem #333;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.kitty-story-box {
+  background: white;
+  padding: 10px;
+  /* T R B L - The BOX element is TROUBLE! */
+}
+
+.kitty-story-header-text {
+  color: black;
+  font-size: 16;
+  text-align: left;
+}
+
+.kitty-story-text {
+  color: black;
+  font-size: 12;
+  text-align: left;
+}
+
+/* Kittie Pic section */
+.kitty-pics-box {
+  background: white;
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+}
+
+.kitty-pics-header-text {
+  color: black;
+  font-size: 16;
+  text-align: center;
+}
+
+.kitty-pic-fig {
+  align-items: center;
+}
+
+.kitty-pics-fig-text {
+  color: black;
+  font-size: 16;
+  text-align: center;
+}
+
+.kitty-pics-text {
+  color: black;
+  font-size: 12;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.kitty-pics-link {
+  color: red;
+  font-size: 12;
+  padding-left: 3rem;
+}
+
+.footer-name-text {
+  color: white;
+}
+
+.footer-phone-text {
+  color: white;
+}
+
+.footer-email-text {
+  color: red;
+}
+
+.footer-copyright {
+  color: white;
+  font-size: 12;
+  display: flex;
+  align-content: center;
+  width: 32rem;
+}
